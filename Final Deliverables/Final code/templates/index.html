@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Plasma donor application</title>
+    <link rel="stylesheet" href="static/css/style2.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/adminregister">Admin Register</a></li>
+                    <li><a href="/recipregistration">Recipient Login</a></li>
+                    <li><a href="/donregistration">Donor Login</a></li>
+                </ul>
+            </div>
+
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Type To text">
+                <a href="#"> <button class="btn">Search</button></a>
+            </div>
+
+        </div> 
+        <div class="content">
+            <h1>Donate Plasma <br><span>Online</span> <br>To Help Patients</h1>
+            <p class="par">Although the government is carrying out Covid vaccination campaigns on a large scale, the number of vaccines produced is not enough for all the population to get vaccinated at present. 
+            And with the corona positive cases rising every day, saving lives has become the prime matter of concern. As per the data provided by WHO more than 3 million people have died due to the coronavirus 
+                                      (https://covid19.who.int/).
+            However, apart from vaccination, there is another scientific method by which a covid infected person can be treated and the death risk can be reduced.
+
+                <button class="cn"><a href="/donregistration">JOIN US</a></button>
+                </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script>
+        window.watsonAssistantChatOptions = {
+          integrationID: "76575f3a-cf78-42d4-9a6c-14482de50c3e", // The ID of this integration.
+          region: "au-syd", // The region your integration is hosted in.
+          serviceInstanceID: "670a94ae-acbb-4009-bcd4-da1fb89f8cdd", // The ID of your service instance.
+          onLoad: function(instance) { instance.render(); }
+        };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+          document.head.appendChild(t);
+        });
+      </script>
+</body>
+</html>
