@@ -1,4 +1,4 @@
-<img src="![banner](https://user-images.githubusercontent.com/61575179/203110832-652c45ed-1d7a-408e-8e62-dd24424e159a.jpg)" width="1050" height="400">
+<img src="https://media.istockphoto.com/id/1218407610/vector/blood-plasma-donation-from-recovered-covid-19-patients-research-to-the-coronavirus-disease.jpg?s=612x612&w=0&k=20&c=t8fY7GgIDtL4cM3NeTyJZy73cCV-39Y0Mz9B2VPNzMs=" width="1050" height="400">
 
 
 #      Plasma Donor Application
